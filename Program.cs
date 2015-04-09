@@ -58,10 +58,7 @@ namespace SergeImageResizer
         static string GetSmallDir(string path)
         {
             path = path + @"\small";
-            using (FileInfo file = new FileInfo(path);)
-            {
-                System.IO.Directory.CreateDirectory(path); // If the directory already exists, this method does nothing.
-            }
+            Directory.CreateDirectory(path); // If the directory already exists, this method does nothing.
             
             return path;
         }
