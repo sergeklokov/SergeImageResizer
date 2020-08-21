@@ -13,12 +13,16 @@ namespace SergeImageResizer
     {
         static void Main(string[] args)
         {
-            int maxSide = 800;
+            int maxSide = 1024;
             bool isOverrideOldSmallImages = false;
 
             Console.WriteLine("example of command line parameters:");
+            Console.WriteLine();
+            Console.WriteLine("C:\\SergeImageResizer.exe 800");
             Console.WriteLine("resize with max side 800px, new images will not be overriden: 800");
-            Console.WriteLine("resize with max side 1024px, new images will be overriden: 1024 override");
+            Console.WriteLine();
+            Console.WriteLine("C:\\SergeImageResizer.exe 800 override");
+            Console.WriteLine("resize with max side 800px, new images will not overriden, not reccomended!");
 
             if (args.Length > 0)
             {

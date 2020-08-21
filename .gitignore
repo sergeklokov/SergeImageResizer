@@ -3,3 +3,18 @@
 ################################################################################
 
 /.vs/slnx.sqlite
+/.vs/SergeImageResizer/v16/Server/sqlite3/storage.ide-wal
+/.vs/SergeImageResizer/v16/Server/sqlite3/storage.ide-shm
+/.vs/SergeImageResizer/v16/Server/sqlite3/storage.ide
+/.vs/SergeImageResizer/v16/Server/sqlite3/db.lock
+/.vs/SergeImageResizer/v16/.suo
+/.vs/ProjectSettings.json
+/bin/Debug/SergeImageResizer.pdb
+/bin/Debug/SergeImageResizer.exe.config
+/bin/Debug/SergeImageResizer.exe
+/obj/Debug/SergeImageResizer.pdb
+/obj/Debug/SergeImageResizer.exe
+/obj/Debug/SergeImageResizer.csproj.FileListAbsolute.txt
+/obj/Debug/SergeImageResizer.csprojAssemblyReference.cache
+/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/.vs/slnx.sqlite-journal

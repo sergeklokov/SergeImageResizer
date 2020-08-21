@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="SergeImageResizer.exe.zip" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Image Resizer Readme.txt" />
