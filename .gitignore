@@ -18,3 +18,5 @@
 /obj/Debug/SergeImageResizer.csprojAssemblyReference.cache
 /obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 /.vs/slnx.sqlite-journal
+/obj/Debug
+/obj/Release
