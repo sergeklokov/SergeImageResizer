@@ -20,3 +20,5 @@
 /.vs/slnx.sqlite-journal
 /obj/Debug
 /obj/Release
+/.vs
+/bin/Debug
