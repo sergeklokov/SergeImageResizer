@@ -17,3 +17,13 @@ C:\SergeImageResizer.exe 800 ovrerride
 
 Thank you,
 Serge Klokov
+
+
+
+================================
+Articles used:
+1. How to resize an Image C#
+https://stackoverflow.com/questions/1922040/how-to-resize-an-image-c-sharp
+
+2. Get Image Orientation and rotate as per orientation
+https://stackoverflow.com/questions/27835064/get-image-orientation-and-rotate-as-per-orientation

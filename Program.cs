@@ -113,9 +113,18 @@ namespace SergeImageResizer
                 newHeight = (int)(image.Height / shrinkRatio);
             }
 
-            var newImage = new Bitmap(newWidth, newHeight);  // old code 
+            var newImage = new Bitmap(newWidth, newHeight);  
+            var graphics = Graphics.FromImage(newImage);
+            graphics.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
+            graphics.DrawImage(image, 0, 0, newWidth, newHeight);
 
-            Graphics.FromImage(newImage).DrawImage(image, 0, 0, newWidth, newHeight);
+            // if orientation info exists
+            if (image.PropertyIdList.Contains(0x112))
+            {
+                var orientation = image.GetPropertyItem(0x112);
+                newImage.SetPropertyItem(orientation);
+            }
+
             return newImage;
         }
 
